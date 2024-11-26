@@ -5,7 +5,6 @@
 # Author - Marty Fierbaugh (mfierbau@cisco.com)
 #
 #
-
 # import libraries 
 import git
 import yaml

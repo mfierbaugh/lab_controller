@@ -1,2 +1,3 @@
 labs:
-     asp_test_lab: 'https://github.com/mfierbaugh/asp-test-lab'
+     asp_sr_mpls_lab: 'https://github.com/mfierbaugh/asp-sr-mpls-lab'
+     asp_srv6_lab: 'https://github.com/mfierbaugh/asp-srv6-lab'

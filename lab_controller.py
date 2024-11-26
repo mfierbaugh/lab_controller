@@ -26,7 +26,7 @@ def clone_playbook(pb_dir, repo):
         sleep(.01)
 
 def pull_playbook(pb_dir, repo):
-    git.cmd.Git(working_dir=pb_dir).pull(repo, 'master')
+    git.cmd.Git(working_dir=pb_dir).pull(repo, 'main')
     for i in tqdm(range(0, 100), total = 100, 
               desc ="Updating " + pb_dir): 
         sleep(.01)

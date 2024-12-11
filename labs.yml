@@ -1,4 +1,3 @@
 labs:
      asp_sr_mpls_lab: 'https://github.com/mfierbaugh/asp-sr-mpls-lab'
      asp_srv6_lab: 'https://github.com/mfierbaugh/asp-srv6-lab'
-     trex: 'https://github.com/mfierbaugh/trex.git'

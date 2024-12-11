@@ -14,6 +14,12 @@ from time import sleep
 
 config_file = 'labs.yml'
 
+def update_controller():
+    git.cmd.Git().pull()
+    for i in tqdm(range(0, 100), total = 100, 
+            desc ="Updating Lab Inventory "): 
+        sleep(.01)
+
 def is_valid_directory(filename):
     p = Path(filename)
     return p.exists() and p.is_dir()
@@ -29,6 +35,8 @@ def pull_playbook(pb_dir, repo):
     for i in tqdm(range(0, 100), total = 100, 
               desc ="Updating " + pb_dir): 
         sleep(.01)
+
+update_controller()
 
 for playbook_dir,repo_url in yaml.load(open(config_file), yaml.FullLoader)['labs'].items():
     if is_valid_directory(playbook_dir):

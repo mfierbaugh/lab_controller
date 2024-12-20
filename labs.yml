@@ -1,3 +1,4 @@
 labs:
      asp_sr_mpls_lab: 'https://github.com/mfierbaugh/asp-sr-mpls-lab'
      asp_srv6_lab: 'https://github.com/mfierbaugh/asp-srv6-lab'
+     test_lab: 'https://github.com/mfierbaugh/test_lab.git'
